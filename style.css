@@ -1,5 +1,4 @@
 body {
-    scale: 2;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
@@ -8,8 +7,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
     flex-direction: column;
     
 }
